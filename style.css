@@ -38,7 +38,28 @@ img {
 .header {
   background-color: #fff;
   grid-column: 2/ 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.search {
   display: flex;
+  grid-column: 1/2;
+}
+
+.profile {
+  grid-column: 2/3;
+}
+
+.welcome {
+  grid-column: 1/2;
+}
+
+.buttons {
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 25px;
 }
 
 .sidebar {
@@ -102,6 +123,7 @@ button {
   color: #fff;
   padding: 8px 16px;
   border-radius: 20px;
+  margin: 15px;
 }
 
 .search-bar {
