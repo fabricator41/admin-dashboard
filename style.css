@@ -20,6 +20,10 @@ svg {
   width: 1rem;
 }
 
+.svg-icons {
+  height: 1rem;
+}
+
 img {
   border-radius: 50%;
 }
